@@ -1,4 +1,4 @@
-import type { ComboDeal, MenuItem, OrderLine } from "./menutypes";
+import type { ComboDeal, MenuItem, OrderLine } from "./menuTypes";
 // ---------------------------------------------------------------
 // 1. THE MENU
 // ---------------------------------------------------------------
