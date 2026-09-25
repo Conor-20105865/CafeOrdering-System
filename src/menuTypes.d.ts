@@ -1,11 +1,11 @@
-type Course = "starter" | "main" | "dessert";
+export type Course = "starter" | "main" | "dessert";
 
-interface Nutrition {
+export interface Nutrition {
 	calories: number;
 	allergens: string[];
 }
 
-interface MenuItem {
+export interface MenuItem {
 	id: number;
 	name: string;
 	course: Course;
@@ -15,11 +15,11 @@ interface MenuItem {
 	availableFrom?: Date;
 }
 
-interface ComboDeal {
+export interface ComboDeal {
 	id: number;
 	name: string;
 	items: MenuItem[];
 	price: number;
 }
 
-type OrderLine = MenuItem | ComboDeal;
+export type OrderLine = MenuItem | ComboDeal;
